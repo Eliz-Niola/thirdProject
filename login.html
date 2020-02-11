@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="./StyleSheets/css/style.css">
+    <link rel="stylesheet" href="./StyleSheets/css/bootstrap.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-md navbar-dark mr-auto">
+        <div class="container">
+            <a class="navbar-brand mr-5" href=""><img src="./images/MEDIAa.png" alt=""></a>
+            <button class="navbar-toggler mr-sm-5" data-toggle="collapse" data-target="#navbarNav"><span
+                    class="navbar-toggler-icon ml-auto"></span></button>
+
+            <ul class="navbar-nav nav-pills collapse navbar-collapse" id="navbarNav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">HOME</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./whoweare.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" data-toggle="modal" data-target="#contactModal">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">LOGIN</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ///////////HOME//////////// -->
+    <header class="homesection">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 d-none d-lg-block">
+                            <h1 class="display-4">rtyuiop[oiuytreyui</h1>
+                            <div class="d-flex flex-row">
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check"></i>
+
+                                </div>
+                                <div class="p-4 align-self-end">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Animi, architecto?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-5">
+                            <div class="card bg-light text-center">
+                                <div class="card-body">
+                                    <form>
+                                        <h1 class="text-dark h3 mr-5">LOGIN <b class="h6 ml-5">Not a member? <button class="btn btn-secondary float-right mb-2">sign up</button></b> </h1>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"
+                                                placeholder="username" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control"
+                                                placeholder="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control"
+                                                placeholder="password" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control"
+                                                placeholder="confirm password" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-dark">submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="py-4">
+                            <h1 class="h3 text-light">Paradox</h1>
+                            <p>copyright &copy; 2020</p>
+                            <button class="btn btn-light" 
+                            data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <div class="modal fade text-dark mx-2" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-tittle" id="contactModalTittle">Contact Us</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">message</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button  class="btn btn-dark form-control">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="./StyleSheets/js/jquery_3.3.1.js"></script>
+    <script src="./StyleSheets/js/popper.min.js"></script>
+    <script src="./StyleSheets/js/bootstrap.js"></script>
+</body>
+
+</html>

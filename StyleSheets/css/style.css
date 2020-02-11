@@ -1,0 +1,72 @@
+nav img{
+    width: 70px;
+}
+.navbar{
+    background: rgb(24, 24, 24);
+    border-bottom:solid rgba(168, 0, 0, 0.651);
+    box-shadow: 2px 2px 5px rgba(168, 0, 0, 0.651)
+    
+}
+.body{
+    background: rgb(24, 24, 24);
+    color: white;
+}
+.home-inner{
+    padding-top: 50px;
+}.fa{
+    color: black;
+    background: white;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 10px;
+}
+.containerr{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+h1{
+    color: rgb(168, 0, 0);
+}
+
+.carousel-inner{
+    height: 700px;
+    background: black;
+    filter: grayscale(50);
+}
+#showcase{
+    background: url('../../images/computers.png') no-repeat;
+    background-size: cover
+}
+.danger-overlay{
+    background: rgba(50, 146, 166, 0.8);
+    /* opacity: .6; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+.col-lg-6 img{
+    opacity: 0.9;
+    width: 400px;
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: solid 1px rgb(156, 156, 156);
+}
+#authors img{
+    margin-top: -50px;
+}
+#authors .card:hover{
+    background: rgb(168, 0, 0);
+    color: white;
+}
+#authors .card .fa:hover{
+    color: white;
+}
+.fa{
+    font-size: 25px;
+}
